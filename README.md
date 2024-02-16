@@ -38,7 +38,7 @@ El data set utilizado está relacionado con el mundo bancario, específicamente 
 
 Las características del data-set se presentan a continuación en la Tabla 1:
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/tabla.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/tabla.png)
 
 Como se muestra en la tabla 1 las características del dataset más importantes se centran en la interacción que tuvo la campaña de marketing sobre el cliente, tales como el mes, el día, la duración del contacto con el cliente y la cantidad de veces que se tuvo un contacto con este, además de esto una de las características más relevantes del dataset es el “poutcome” el cual muestra si la campaña de marketing tuvo éxito al aplicar a él diverso cliente.
 
