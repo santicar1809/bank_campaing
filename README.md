@@ -86,41 +86,41 @@ Comenzando con el análisis exploratorio de datos, se evidenció que la poblaci�
 
 **Ilustración 1. Gráfico de torta**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen1.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen1.png)
 
 Haciendo un análisis de la edad con respecto a la duración de las llamadas, podemos evidenciar que las personas que tienen créditos en el banco suelen tener más duración que los que no tienen crédito, además podemos evidenciar que en cuanto las personas tienen más edad, la duración de las llamadas aumenta. Estos hallazgos se pueden evidenciar en la ‘Ilustración 2’ e ‘Ilustración 3’.
 
 **Ilustración 2 Duración vs edad con crédito**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen2.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen2.png)
 
 **Ilustración 3 Duración vs edad sin crédito**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen3.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen3.png)
 
 En cuanto a la duración de la llamada dependiendo del estado civil, podemos evidenciar el hallazgo de que los estudiantes divorciados suelen demorar más en las llamadas, seguido por las personas retiradas y solteras. Esto se puede ver en la ‘Ilustración 4’
 
 **Ilustración 4, Duración vs trabajo**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen4.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen4.png)
 
 En cuanto a la concentración de los datos de las edades, podemos ver en la ‘Ilustración 5’ una cantidad grande de personas entre las 30 y los 50 años que tienen un promedio de duración de 0.05 las cuales tienen crédito de vivienda, al igual que las que no tienen crédito de vivienda por lo cual este atributo no influye en la duración de llamada.
 
 **Ilustración 5 Edad vs duración**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen5.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen5.png)
 
 El grafico de edad vs frecuencia, nos muestra la cantidad de datos que se repiten más, o que son más frecuentes en el dataset, en este grafico podemos observar que la mayoría de los clientes se encuentran en un rango de edad entre los 25 a los 36 años, esto nos muestra claramente que los principales candidatos para adquirir una suscripción son adultos.
 
 **Ilustración 6, Edad vs frecuencia**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen6.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen6.png)
 
 En la ilustración 7 podemos ver que por medio del contacto celular duración de llamada es menor a la de contacto por teléfono, además se puede ver que la duración de llamada tiende a bajar a medida que ha tenido más contactos previos.
 
 **Ilustración 7, Duración vs Numeró de contactos previos**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen7.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen7.png)
 
 **Modelos de clasificación**
 
@@ -131,7 +131,7 @@ Accuracy: 0.871
 
 **Ilustración 8 GaussNB**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen8.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen8.png)
 
 Como se evidencia en la ‘Ilustración 8’ el accuracy del modelo gaussiano de bayes fue del 87% con 8095 aciertos en que no se suscribirá y 521 aciertos en no.
 Escuela Colombiana de Ingeniería Julio Garavito 11
@@ -141,7 +141,7 @@ Accuracy: 0.874
 
 **Ilustración 9 MultinomialNB**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen9.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen9.png)
 
 En el método multinomial como se ve en la ‘Ilustración 9’ se obtuvo un accuracy del 87% con 8292 aciertos en no y 354 en sí.
 
@@ -151,7 +151,7 @@ Accuracy: 0.875
 
 **Ilustración 10 Bernoulli NB**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen10.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen10.png)
 
 Al ver la ‘Ilustración 10‘con los resultados de Bernoulli, podemos ver un accuracy de 88% con 8300 aciertos al no y 354 aciertos al sí.
 
@@ -161,7 +161,7 @@ Accuracy=0.897
 
 **Ilustración 11 KNN**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen11.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen11.png)
 
 El método de KNN classifier está relacionado con el método imputación KNN en el cual se analizan los vecinos más cercanos a un valor, para poder predecir otros a partir de estos, sin embargo, en este caso funciona como un método de clasificación el cual nos permite predecir el valor de la variable dependiente. En este caso al aplicar el método, como lo vemos en la ‘Ilustración 11’, y hacer uso de grid cross-validation se obtuvieron los mejores parámetros para el KNN classifier y se obtuvo un accuracy de 89.76% con 8637 aciertos al no y 237 aciertos al sí.
 
@@ -173,7 +173,7 @@ Accuracy= 0.90
 
 **Ilustración 12 SVM**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen12.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen12.png)
 
 Support vector machine es un método de clasificación en el cual busca un vector con un margen más aproximado a la clasificación, a partir de unos hiperparametros los cuales ajustan de mejor manera la posición de este vector que realmente es un hiperplano, el cual separa los datos y ayuda a clasificarlos. Al hacer uso de este método, como lo vemos en la ‘Ilustración 12’, se aplicó un proceso de optimización para encontrar los mejores parámetros del hiperplano, este proceso de optimización es el grid cross validation; al haber encontrado los mejores parámetros se obtuvo un accuracy de 90.04% con 8663 aciertos al no y 237 aciertos al sí.
 
@@ -183,7 +183,7 @@ La mejor combinación de parámetros fue C=100 y Gamma=0.001.
 
 **Ilustración 13, Centroides**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen13.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen13.png)
 
 En este caso al realizar el método de clustering, encontramos los centroides a partir de los cuales se forman los dos clusters, debido a que la información que queremos de los clientes es saber que tan posible es que estos se suscriban a un depósito a largo plazo. En este caso al aplicar el modelo de clustering encontramos que las características que más tienen relevancia para cada uno de los clusters tienen que ver con la duración del tiempo en la que se interactuó con el cliente y el número de veces que se contactó con estos.
 
@@ -193,7 +193,7 @@ Haciendo un análisis de todos los métodos, utilizados, podemos evidenciar que 
 
 **Tabla 2 Accuracy**
 
-![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/Imagen14.png)
+![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen14.png)
 
 Haciendo un análisis del F1score podemos ver que los resultados cambian teniendo el modelo de naive bayes con el mejor F1 score del 45% para la clase ‘Si’, y 93% para la clase ‘No’, esto sumado a la exactitud encontrada del 87,1% sería el algoritmo más apto para la predicción de si las personas se suscribirían al producto del deposito o no, debido a que de nada sirve un algoritmo que tenga una excelente exactitud que acierte a todas las clases que ‘No’ se suscriban al producto y erre a todas las clases donde ‘Si’ se suscribirían, ya que el objetivo de este algoritmo es encontrar personas que realmente si se suscribirían al producto para incrementar los ingresos.
 
