@@ -122,7 +122,7 @@ En la ilustración 7 podemos ver que por medio del contacto celular duración de
 
 ![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen7.png)
 
-**Modelos de clasificación**
+#### Modelos de clasificación
 
 Al correr cada uno de los modelos para predecir la suscripción de los clientes, se evaluaron las métricas de precisión, recall, f1 score y support de cada clase, además el accuracy total y el total de aciertos y errores.
 
@@ -179,7 +179,7 @@ Support vector machine es un método de clasificación en el cual busca un vecto
 
 La mejor combinación de parámetros fue C=100 y Gamma=0.001.
 
-**Clustering**
+#### Clustering
 
 **Ilustración 13, Centroides**
 
@@ -191,7 +191,7 @@ En este caso al realizar el método de clustering, encontramos los centroides a 
 
 Haciendo un análisis de todos los métodos, utilizados, podemos evidenciar que el modelo que tuvo más exactitud fue el Support vector machine con 90% de accuracy, seguido de K-NN, y naive bayes, como lo vemos en la ‘Tabla 2’, sin embargo, los modelos tuvieron buenas métricas, teniendo en cuenta que los valores se les aplicó la técnica de cross-validation, sus resultados fueron mejores aplicando los mejores parámetros para SVM y K-NN, sin embargo, la exactitud es fiable cuando se cuenta con un dataframe balanceado, lo que quiere decir que tiene igual cantidad de cada clase en el dataframe, lo cual en nuestro caso no se cumple, debido a que se tiene más cantidad de la clase ‘No’ que de la clase ‘Si’, esto podemos verlo simplemente viendo la matriz de confusión, si vemos la de Support vector machine en la ‘Ilustración 12, vemos 8663 aciertos al ‘No’, 118 errores contra 237 aciertos al ‘Si’ y 867 errores, lo que nos hace ver que la clase predominante es el ‘No’ con más del 88% de los datos, a causa de esto debemos ver otra clase de métricas [14].
 
-**Tabla 2 Accuracy**
+#### Tabla 2 Accuracy
 
 ![Alt text](https://github.com/santicar1809/bank_campaing/blob/master/images/Imagen14.png)
 
